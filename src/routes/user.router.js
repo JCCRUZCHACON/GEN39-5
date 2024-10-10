@@ -3,7 +3,7 @@ const express = require('express');
 const hashPassword = require('../middlewares/hashPassword.middlewares');
 const loginMiddelwares = require('../middlewares/login.middlewares');
 const sessionJWT = require('../middlewares/sessionJWT.middlewares');
-const { verifyJWT } = require('../utils/verifyJwt');
+const verifyJWT = require('../utils/verifyJwt');
 const emailCode = require('../middlewares/emailCode.middlewares');
 
 const routerUser = express.Router();
